@@ -20,11 +20,7 @@
     "path": "/documentation",
     "showGeneratedFiles": true,
     "generateDefaultResponse": true,
-    "plugins": [
-      "email",
-      "upload",
-      "users-permissions"
-    ]
+    "plugins": ["email", "upload", "users-permissions"]
   },
   "servers": [
     {
@@ -52,9 +48,7 @@
     "schemas": {
       "Error": {
         "type": "object",
-        "required": [
-          "error"
-        ],
+        "required": ["error"],
         "properties": {
           "data": {
             "nullable": true,
@@ -89,14 +83,10 @@
       },
       "HomeAboutSectionRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "images"
-            ],
+            "required": ["images"],
             "type": "object",
             "properties": {
               "title": {
@@ -3958,9 +3948,7 @@
       },
       "HomeGallarySectionRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
             "required": [],
@@ -5950,14 +5938,10 @@
       },
       "HomeHeroSlierRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "title"
-            ],
+            "required": ["title"],
             "type": "object",
             "properties": {
               "title": {
@@ -9789,9 +9773,7 @@
       },
       "HomePrivateTableSectionRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
             "required": [],
@@ -11160,9 +11142,7 @@
       },
       "HomeSpacesSectionRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
             "required": [],
@@ -12517,9 +12497,7 @@
       },
       "UploadFileRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
             "required": [
@@ -15113,16 +15091,10 @@
       },
       "UploadFolderRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "name",
-              "pathId",
-              "path"
-            ],
+            "required": ["name", "pathId", "path"],
             "type": "object",
             "properties": {
               "name": {
@@ -17634,14 +17606,10 @@
       },
       "UsersPermissionsPermissionRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "action"
-            ],
+            "required": ["action"],
             "type": "object",
             "properties": {
               "action": {
@@ -19959,14 +19927,10 @@
       },
       "UsersPermissionsRoleRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "name"
-            ],
+            "required": ["name"],
             "type": "object",
             "properties": {
               "name": {
@@ -22423,15 +22387,10 @@
       },
       "UsersPermissionsUserRequest": {
         "type": "object",
-        "required": [
-          "data"
-        ],
+        "required": ["data"],
         "properties": {
           "data": {
-            "required": [
-              "username",
-              "email"
-            ],
+            "required": ["username", "email"],
             "type": "object",
             "properties": {
               "username": {
@@ -25058,9 +25017,7 @@
             }
           }
         },
-        "tags": [
-          "Home-about-section"
-        ],
+        "tags": ["Home-about-section"],
         "parameters": [
           {
             "name": "sort",
@@ -25229,9 +25186,7 @@
             }
           }
         },
-        "tags": [
-          "Home-about-section"
-        ],
+        "tags": ["Home-about-section"],
         "parameters": [],
         "operationId": "post/home-about-sections",
         "requestBody": {
@@ -25310,9 +25265,7 @@
             }
           }
         },
-        "tags": [
-          "Home-about-section"
-        ],
+        "tags": ["Home-about-section"],
         "parameters": [
           {
             "name": "id",
@@ -25390,9 +25343,7 @@
             }
           }
         },
-        "tags": [
-          "Home-about-section"
-        ],
+        "tags": ["Home-about-section"],
         "parameters": [
           {
             "name": "id",
@@ -25481,9 +25432,7 @@
             }
           }
         },
-        "tags": [
-          "Home-about-section"
-        ],
+        "tags": ["Home-about-section"],
         "parameters": [
           {
             "name": "id",
@@ -25563,9 +25512,7 @@
             }
           }
         },
-        "tags": [
-          "Home-gallary-section"
-        ],
+        "tags": ["Home-gallary-section"],
         "parameters": [
           {
             "name": "sort",
@@ -25734,9 +25681,7 @@
             }
           }
         },
-        "tags": [
-          "Home-gallary-section"
-        ],
+        "tags": ["Home-gallary-section"],
         "parameters": [],
         "operationId": "post/home-gallary-sections",
         "requestBody": {
@@ -25815,9 +25760,7 @@
             }
           }
         },
-        "tags": [
-          "Home-gallary-section"
-        ],
+        "tags": ["Home-gallary-section"],
         "parameters": [
           {
             "name": "id",
@@ -25895,9 +25838,7 @@
             }
           }
         },
-        "tags": [
-          "Home-gallary-section"
-        ],
+        "tags": ["Home-gallary-section"],
         "parameters": [
           {
             "name": "id",
@@ -25986,9 +25927,7 @@
             }
           }
         },
-        "tags": [
-          "Home-gallary-section"
-        ],
+        "tags": ["Home-gallary-section"],
         "parameters": [
           {
             "name": "id",
@@ -26068,9 +26007,7 @@
             }
           }
         },
-        "tags": [
-          "Home-hero-slier"
-        ],
+        "tags": ["Home-hero-slier"],
         "parameters": [
           {
             "name": "sort",
@@ -26239,9 +26176,7 @@
             }
           }
         },
-        "tags": [
-          "Home-hero-slier"
-        ],
+        "tags": ["Home-hero-slier"],
         "parameters": [],
         "operationId": "post/home-hero-sliers",
         "requestBody": {
@@ -26320,9 +26255,7 @@
             }
           }
         },
-        "tags": [
-          "Home-hero-slier"
-        ],
+        "tags": ["Home-hero-slier"],
         "parameters": [
           {
             "name": "id",
@@ -26400,9 +26333,7 @@
             }
           }
         },
-        "tags": [
-          "Home-hero-slier"
-        ],
+        "tags": ["Home-hero-slier"],
         "parameters": [
           {
             "name": "id",
@@ -26491,9 +26422,7 @@
             }
           }
         },
-        "tags": [
-          "Home-hero-slier"
-        ],
+        "tags": ["Home-hero-slier"],
         "parameters": [
           {
             "name": "id",
@@ -26573,9 +26502,7 @@
             }
           }
         },
-        "tags": [
-          "Home-private-table-section"
-        ],
+        "tags": ["Home-private-table-section"],
         "parameters": [
           {
             "name": "sort",
@@ -26744,9 +26671,7 @@
             }
           }
         },
-        "tags": [
-          "Home-private-table-section"
-        ],
+        "tags": ["Home-private-table-section"],
         "parameters": [],
         "operationId": "post/home-private-table-sections",
         "requestBody": {
@@ -26825,9 +26750,7 @@
             }
           }
         },
-        "tags": [
-          "Home-private-table-section"
-        ],
+        "tags": ["Home-private-table-section"],
         "parameters": [
           {
             "name": "id",
@@ -26905,9 +26828,7 @@
             }
           }
         },
-        "tags": [
-          "Home-private-table-section"
-        ],
+        "tags": ["Home-private-table-section"],
         "parameters": [
           {
             "name": "id",
@@ -26996,9 +26917,7 @@
             }
           }
         },
-        "tags": [
-          "Home-private-table-section"
-        ],
+        "tags": ["Home-private-table-section"],
         "parameters": [
           {
             "name": "id",
@@ -27078,9 +26997,7 @@
             }
           }
         },
-        "tags": [
-          "Home-spaces-section"
-        ],
+        "tags": ["Home-spaces-section"],
         "parameters": [
           {
             "name": "sort",
@@ -27249,9 +27166,7 @@
             }
           }
         },
-        "tags": [
-          "Home-spaces-section"
-        ],
+        "tags": ["Home-spaces-section"],
         "parameters": [],
         "operationId": "post/home-spaces-sections",
         "requestBody": {
@@ -27330,9 +27245,7 @@
             }
           }
         },
-        "tags": [
-          "Home-spaces-section"
-        ],
+        "tags": ["Home-spaces-section"],
         "parameters": [
           {
             "name": "id",
@@ -27410,9 +27323,7 @@
             }
           }
         },
-        "tags": [
-          "Home-spaces-section"
-        ],
+        "tags": ["Home-spaces-section"],
         "parameters": [
           {
             "name": "id",
@@ -27501,9 +27412,7 @@
             }
           }
         },
-        "tags": [
-          "Home-spaces-section"
-        ],
+        "tags": ["Home-spaces-section"],
         "parameters": [
           {
             "name": "id",
@@ -27583,9 +27492,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "sort",
@@ -27756,9 +27663,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "id",
@@ -27837,9 +27742,7 @@
             }
           }
         },
-        "tags": [
-          "Upload - File"
-        ],
+        "tags": ["Upload - File"],
         "parameters": [
           {
             "name": "id",
@@ -27857,9 +27760,7 @@
     },
     "/users-permissions/permissions": {
       "get": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Get default generated permissions",
         "responses": {
           "200": {
@@ -27928,9 +27829,7 @@
     },
     "/users-permissions/roles/{id}": {
       "get": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Get a role",
         "parameters": [
           {
@@ -27995,9 +27894,7 @@
     },
     "/users-permissions/roles": {
       "get": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "List roles",
         "responses": {
           "200": {
@@ -28056,9 +27953,7 @@
         }
       },
       "post": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Create a role",
         "requestBody": {
           "$ref": "#/components/requestBodies/Users-Permissions-RoleRequest"
@@ -28073,9 +27968,7 @@
                   "properties": {
                     "ok": {
                       "type": "enum",
-                      "enum": [
-                        true
-                      ]
+                      "enum": [true]
                     }
                   }
                 }
@@ -28097,9 +27990,7 @@
     },
     "/users-permissions/roles/{role}": {
       "put": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Update a role",
         "parameters": [
           {
@@ -28125,9 +28016,7 @@
                   "properties": {
                     "ok": {
                       "type": "enum",
-                      "enum": [
-                        true
-                      ]
+                      "enum": [true]
                     }
                   }
                 }
@@ -28147,9 +28036,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Delete a role",
         "parameters": [
           {
@@ -28172,9 +28059,7 @@
                   "properties": {
                     "ok": {
                       "type": "enum",
-                      "enum": [
-                        true
-                      ]
+                      "enum": [true]
                     }
                   }
                 }
@@ -28196,9 +28081,7 @@
     },
     "/users/count": {
       "get": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Get user count",
         "responses": {
           "200": {
@@ -28227,9 +28110,7 @@
     },
     "/users": {
       "get": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Get list of users",
         "responses": {
           "200": {
@@ -28270,9 +28151,7 @@
         }
       },
       "post": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Create a user",
         "requestBody": {
           "required": true,
@@ -28280,11 +28159,7 @@
             "application/json": {
               "schema": {
                 "type": "object",
-                "required": [
-                  "username",
-                  "email",
-                  "password"
-                ],
+                "required": ["username", "email", "password"],
                 "properties": {
                   "email": {
                     "type": "string"
@@ -28361,9 +28236,7 @@
     },
     "/users/me": {
       "get": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Get authenticated user info",
         "responses": {
           "200": {
@@ -28401,9 +28274,7 @@
     },
     "/users/{id}": {
       "get": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Get a user",
         "parameters": [
           {
@@ -28450,9 +28321,7 @@
         }
       },
       "put": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Update a user",
         "parameters": [
           {
@@ -28471,11 +28340,7 @@
             "application/json": {
               "schema": {
                 "type": "object",
-                "required": [
-                  "username",
-                  "email",
-                  "password"
-                ],
+                "required": ["username", "email", "password"],
                 "properties": {
                   "email": {
                     "type": "string"
@@ -28550,9 +28415,7 @@
         }
       },
       "delete": {
-        "tags": [
-          "Users-Permissions - Users & Roles"
-        ],
+        "tags": ["Users-Permissions - Users & Roles"],
         "summary": "Delete a user",
         "parameters": [
           {
@@ -28605,9 +28468,7 @@
     },
     "/connect/(.*)": {
       "get": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Login with a provider",
         "description": "Redirects to provider login before being redirect to /auth/{provider}/callback",
         "responses": {
@@ -28629,9 +28490,7 @@
     },
     "/auth/local": {
       "post": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Local login",
         "description": "Returns a jwt token and user info",
         "requestBody": {
@@ -28682,9 +28541,7 @@
     },
     "/auth/local/register": {
       "post": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Register a user",
         "description": "Returns a jwt token and user info",
         "requestBody": {
@@ -28739,9 +28596,7 @@
     },
     "/auth/{provider}/callback": {
       "get": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Default Callback from provider auth",
         "parameters": [
           {
@@ -28780,9 +28635,7 @@
     },
     "/auth/forgot-password": {
       "post": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Send rest password email",
         "requestBody": {
           "required": true,
@@ -28812,9 +28665,7 @@
                   "properties": {
                     "ok": {
                       "type": "enum",
-                      "enum": [
-                        true
-                      ]
+                      "enum": [true]
                     }
                   }
                 }
@@ -28836,9 +28687,7 @@
     },
     "/auth/reset-password": {
       "post": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Rest user password",
         "requestBody": {
           "required": true,
@@ -28892,9 +28741,7 @@
     },
     "/auth/change-password": {
       "post": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Update user's own password",
         "requestBody": {
           "required": true,
@@ -28948,9 +28795,7 @@
     },
     "/auth/email-confirmation": {
       "get": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Confirm user email",
         "parameters": [
           {
@@ -28981,9 +28826,7 @@
     },
     "/auth/send-email-confirmation": {
       "post": {
-        "tags": [
-          "Users-Permissions - Auth"
-        ],
+        "tags": ["Users-Permissions - Auth"],
         "summary": "Send confirmation email",
         "requestBody": {
           "required": true,
@@ -29013,9 +28856,7 @@
                     },
                     "sent": {
                       "type": "enum",
-                      "enum": [
-                        true
-                      ]
+                      "enum": [true]
                     }
                   }
                 }
