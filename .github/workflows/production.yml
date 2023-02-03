@@ -1,0 +1,34 @@
+name: vudo-live-game-engine api staging deploy
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.STAGING_HOST }}
+          username: ${{ secrets.STAGING_USER }}
+          key: ${{ secrets.STAGING_SSH_KEY }}
+          script: |
+            pwd
+            cd /var/www/golden-flower/vudo-live-game-engine
+            git checkout staging
+            git checkout .
+            git pull origin staging
+            docker stop vudo-live-game-engine-api
+            docker rm vudo-live-game-engine-api
+            docker rmi vudo-live/vudo-live-game-engine:latest
+            docker build . --file Dockerfile --tag vudo-live/vudo-live-game-engine:latest
+            docker run -e NODE_ENV=staging -d \
+                --restart always \
+                -dit --name vudo-live-game-engine-api \
+                --network golden-flower_game-network \
+                -p 3000:3000 \
+                --name vudo-live-game-engine-api \
+                vudo-live/vudo-live-game-engine:latest
