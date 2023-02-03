@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_hero_sliers",
+  "info": {
+    "singularName": "home-hero-slier",
+    "pluralName": "home-hero-sliers",
+    "displayName": "Home Hero Slier"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "images": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
