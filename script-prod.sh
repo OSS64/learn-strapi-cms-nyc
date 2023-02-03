@@ -6,4 +6,4 @@ source ~/.nvm/nvm.sh
 node -v
 npm install
 npm run build
-sudo pm2 start pm2.prod.config.json
+npm pm2 start pm2.prod.config.json
