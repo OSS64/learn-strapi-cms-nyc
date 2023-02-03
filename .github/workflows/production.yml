@@ -22,9 +22,5 @@ jobs:
             git checkout main
             git checkout .
             git pull origin main
-            export NVM_DIR=~/.nvm
-            source ~/.nvm/nvm.sh
-            npx kill-port 1337 -y
-            yarn install
-            yarn build
-            yarn start
+            chmod +x script-prod.sh
+            ./script-prod.sh
