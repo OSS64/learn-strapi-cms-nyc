@@ -92,11 +92,14 @@ lcov.info
 pids
 logs
 results
-node_modules
+node_modules/*
+!node_modules/@strapi
+# node_modules/@strapi/*node_modules
 .node_history
 
 
-/node_modules
+
+# /node_modules
 
 ############################
 # Tests
