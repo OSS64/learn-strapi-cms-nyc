@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_spaces_sections",
+  "info": {
+    "singularName": "home-spaces-section",
+    "pluralName": "home-spaces-sections",
+    "displayName": "home-spaces-section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sectinCount": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "spaces-item.spaces-item"
+    }
+  }
+}

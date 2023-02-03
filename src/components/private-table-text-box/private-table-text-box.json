@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_private_table_text_box_private_table_text_boxes",
+  "info": {
+    "displayName": "private-table-text-box",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

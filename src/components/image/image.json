@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_image_images",
+  "info": {
+    "displayName": "image"
+  },
+  "options": {},
+  "attributes": {
+    "priority": {
+      "type": "integer"
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "isThumbnail": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

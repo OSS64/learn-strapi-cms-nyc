@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-hero-slier",
     "pluralName": "home-hero-sliers",
-    "displayName": "Home Hero Slier"
+    "displayName": "Home Hero Slider",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -19,11 +20,12 @@
       "type": "boolean"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }
