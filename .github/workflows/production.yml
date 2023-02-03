@@ -21,6 +21,6 @@ jobs:
             git checkout main
             git checkout .
             git pull origin main
-            yarn install
-            yarn build
-            yarn start
+            npm install
+            npm build
+            npm start
