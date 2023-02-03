@@ -22,6 +22,8 @@ jobs:
             git checkout main
             git checkout .
             git pull origin main
+            export NVM_DIR=~/.nvm
+            source ~/.nvm/nvm.sh
             npm install
             npm build
             npm start
