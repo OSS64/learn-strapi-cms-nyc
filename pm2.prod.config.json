@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "nyc",
+      "script": "npm",
+      "args": "run start",
+      "instances": "max",
+      "exec_mode": "cluster",
+      "kill_timeout": 5000,
+      "restart_delay": 5000,
+      "listen_timeout": 5000,
+      "wait_ready": true
+    }
+  ]
+}
