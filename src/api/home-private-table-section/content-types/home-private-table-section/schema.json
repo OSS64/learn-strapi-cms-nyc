@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_private_table_sections",
+  "info": {
+    "singularName": "home-private-table-section",
+    "pluralName": "home-private-table-sections",
+    "displayName": "home-private-table-section",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "cout": {
+      "type": "string"
+    },
+    "items": {
+      "displayName": "private-table-text-box",
+      "type": "component",
+      "repeatable": true,
+      "component": "private-table-text-box.private-table-text-box"
+    }
+  }
+}

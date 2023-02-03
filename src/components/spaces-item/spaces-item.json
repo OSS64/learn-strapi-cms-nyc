@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_spaces_item_spaces_items",
+  "info": {
+    "displayName": "spaces-item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

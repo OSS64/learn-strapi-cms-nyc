@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_gallary_sections",
+  "info": {
+    "singularName": "home-gallary-section",
+    "pluralName": "home-gallary-sections",
+    "displayName": "home-gallary-section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "count": {
+      "type": "string"
+    },
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "spaces-item.spaces-item"
+    }
+  }
+}
