@@ -32,7 +32,7 @@ export default {
     ],
     translations: {
       en: {
-        "Auth.form.welcome.title": "Welcome to NYC Coffee",
+        "Auth.form.welcome.title": "Welcome to NYC CoffEE",
         "Auth.form.welcome.subtitle": "Log in to your App",
         "app.components.LeftMenu.navbrand.title": "NYC Coffee",
         "app.components.HomePage.welcomeBlock.content.again":
