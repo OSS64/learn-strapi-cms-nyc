@@ -24,6 +24,6 @@ jobs:
             git pull origin main
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
-            npm install
-            npm build
-            npm start
+            yarn install
+            yarn build
+            yarn start
