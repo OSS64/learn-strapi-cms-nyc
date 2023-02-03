@@ -32,11 +32,11 @@ export default {
     ],
     translations: {
       en: {
-        "Auth.form.welcome.title": "Welcome to NYC CoffEE",
+        "Auth.form.welcome.title": "Welcome to NYC COFFEE",
         "Auth.form.welcome.subtitle": "Log in to your App",
-        "app.components.LeftMenu.navbrand.title": "NYC Coffee",
+        "app.components.LeftMenu.navbrand.title": "NYC COFFEE",
         "app.components.HomePage.welcomeBlock.content.again":
-          "Welcome to NYC Coffee",
+          "Welcome to NYC COFFEE",
       },
     },
     auth: {
