@@ -1,8 +1,8 @@
-name: vudo-live-game-engine api staging deploy
+name: Production deploy
 on:
   push:
     branches:
-      - staging
+      - main
 
 jobs:
   build:
@@ -17,18 +17,10 @@ jobs:
           key: ${{ secrets.STAGING_SSH_KEY }}
           script: |
             pwd
-            cd /var/www/golden-flower/vudo-live-game-engine
-            git checkout staging
+            cd /var/www/oss64/learn-strapi-cms-nyc
+            git checkout main
             git checkout .
-            git pull origin staging
-            docker stop vudo-live-game-engine-api
-            docker rm vudo-live-game-engine-api
-            docker rmi vudo-live/vudo-live-game-engine:latest
-            docker build . --file Dockerfile --tag vudo-live/vudo-live-game-engine:latest
-            docker run -e NODE_ENV=staging -d \
-                --restart always \
-                -dit --name vudo-live-game-engine-api \
-                --network golden-flower_game-network \
-                -p 3000:3000 \
-                --name vudo-live-game-engine-api \
-                vudo-live/vudo-live-game-engine:latest
+            git pull origin main
+            yarn install
+            yarn build
+            yarn start
