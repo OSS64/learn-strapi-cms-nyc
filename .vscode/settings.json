@@ -1,3 +1,7 @@
 {
-  "conventionalCommits.scopes": ["Setup"]
+  "conventionalCommits.scopes": ["Setup"],
+  "search.useIgnoreFiles": false,
+  "search.exclude": {
+    "**/node_modules": false
+  }
 }

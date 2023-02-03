@@ -30,6 +30,15 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+    translations: {
+      en: {
+        "Auth.form.welcome.title": "Welcome to NYC Coffee",
+        "Auth.form.welcome.subtitle": "Log in to your App",
+        "app.components.LeftMenu.navbrand.title": "NYC Coffee",
+        "app.components.HomePage.welcomeBlock.content.again":
+          "Welcome to NYC Coffee",
+      },
+    },
     auth: {
       logo: AuthLogo,
     },
