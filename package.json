@@ -8,7 +8,8 @@
     "dev": "strapi develop",
     "start": "NODE_ENV=production strapi start",
     "build": "NODE_ENV=production strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "move": "cp -rf ./.customized/* ./node_modules"
   },
   "devDependencies": {},
   "dependencies": {
